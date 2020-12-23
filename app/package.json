@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "svelte": "^3.24.0"
+  },
+  "devDependencies": {
+    "@app/form": "file:../form",
+    "@snowpack/plugin-svelte": "^3.4.0",
+    "snowpack": "^3.0.0-rc.2"
+  }
+}
